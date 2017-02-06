@@ -9,6 +9,7 @@ class FSM {
         this._activeState = config.initial;
         this._statesHistory = [];
         this._states = config.states;
+        this._redu;
     }
 
     /**
